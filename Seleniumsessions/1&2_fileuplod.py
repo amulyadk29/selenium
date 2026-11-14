@@ -1,5 +1,6 @@
 from selenium import webdriver
 from time import sleep
+import os
 
 driver = webdriver.Chrome()
 driver.get("https://testautomationpractice.blogspot.com/")
